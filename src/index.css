@@ -18,3 +18,26 @@ code {
 #root > section {
   height: 100vh;
 }
+
+.weekly-meal-planner {
+  width: 100%;
+}
+.weekly-meal-planner td {
+  border: 1px #CCCCCC solid;
+}
+
+.weekly-meal-planner tbody th {
+  text-align: right;
+  padding: 10px;
+}
+.weekly-meal-planner thead th {
+  text-align: center;
+}
+
+.meal-planner-add-button {
+  background: green;
+  cursor: pointer;
+}
+.meal-planner-add-button:hover {
+  background: #119911;
+}
